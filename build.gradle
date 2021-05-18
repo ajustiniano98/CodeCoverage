@@ -43,3 +43,4 @@ jacocoTestReport {
 check.dependsOn jacocoTestCoverageVerification
 
 test.finalizedBy jacocoTestCoverageVerification
+test.finalizedBy jacocoTestReport
